@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WTMGlyphDetector.h"
+#import <WTMGlyph/WTMGlyphDetector.h>
 
 @class WTMGlyphDetectorView;
 

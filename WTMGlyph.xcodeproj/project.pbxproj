@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E7943EA16EA5C62009259AB /* WTMDetectionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7943E816EA5C62009259AB /* WTMDetectionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7943EB16EA5C62009259AB /* WTMDetectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7943E916EA5C62009259AB /* WTMDetectionResult.m */; };
 		EA1BA9AC138E71BF00D9A7B9 /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BA994138E71BF00D9A7B9 /* CDataScanner.h */; };
 		EA1BA9AD138E71BF00D9A7B9 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA995138E71BF00D9A7B9 /* CDataScanner.m */; };
 		EA1BA9AE138E71BF00D9A7B9 /* CFilteringJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BA997138E71BF00D9A7B9 /* CFilteringJSONSerializer.h */; };
@@ -28,14 +30,14 @@
 		EA1BA9BE138E71BF00D9A7B9 /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BA9A9138E71BF00D9A7B9 /* CJSONSerializer.h */; };
 		EA1BA9BF138E71BF00D9A7B9 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA9AA138E71BF00D9A7B9 /* CJSONSerializer.m */; };
 		EA1BA9C0138E71BF00D9A7B9 /* JSONRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BA9AB138E71BF00D9A7B9 /* JSONRepresentation.h */; };
-		EA27804A136DAD6A00E3065A /* WTMGlyphDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA278049136DAD6A00E3065A /* WTMGlyphDelegate.h */; };
-		EA278050136DB9D400E3065A /* WTMGlyphDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = EA27804E136DB9D400E3065A /* WTMGlyphDefaults.h */; };
+		EA27804A136DAD6A00E3065A /* WTMGlyphDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA278049136DAD6A00E3065A /* WTMGlyphDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA278050136DB9D400E3065A /* WTMGlyphDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = EA27804E136DB9D400E3065A /* WTMGlyphDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA278051136DB9D400E3065A /* WTMGlyphDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27804F136DB9D400E3065A /* WTMGlyphDefaults.m */; };
-		EA4860ED1380411900E40C6C /* WTMGlyphUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4860EB1380411900E40C6C /* WTMGlyphUtilities.h */; };
+		EA4860ED1380411900E40C6C /* WTMGlyphUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4860EB1380411900E40C6C /* WTMGlyphUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA4860EE1380411900E40C6C /* WTMGlyphUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4860EC1380411900E40C6C /* WTMGlyphUtilities.m */; };
-		EA5836FE137F6BDF0074BB72 /* WTMGlyphStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5836FC137F6BDF0074BB72 /* WTMGlyphStroke.h */; };
+		EA5836FE137F6BDF0074BB72 /* WTMGlyphStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5836FC137F6BDF0074BB72 /* WTMGlyphStroke.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5836FF137F6BDF0074BB72 /* WTMGlyphStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5836FD137F6BDF0074BB72 /* WTMGlyphStroke.m */; };
-		EA583703138015020074BB72 /* WTMGlyphTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA583701138015020074BB72 /* WTMGlyphTemplate.h */; };
+		EA583703138015020074BB72 /* WTMGlyphTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA583701138015020074BB72 /* WTMGlyphTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA583704138015020074BB72 /* WTMGlyphTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA583702138015020074BB72 /* WTMGlyphTemplate.m */; };
 		EA6C92FA136DA457008AD709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6C92F9136DA457008AD709 /* Foundation.framework */; };
 		EA6C9305136DA457008AD709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6C9304136DA457008AD709 /* UIKit.framework */; };
@@ -45,9 +47,9 @@
 		EA6C9311136DA457008AD709 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA6C930F136DA457008AD709 /* InfoPlist.strings */; };
 		EA6C9314136DA457008AD709 /* WTMGlyphTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EA6C9313136DA457008AD709 /* WTMGlyphTests.h */; };
 		EA6C9316136DA457008AD709 /* WTMGlyphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C9315136DA457008AD709 /* WTMGlyphTests.m */; };
-		EA6C9321136DA48E008AD709 /* WTMGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6C931F136DA48E008AD709 /* WTMGlyph.h */; };
+		EA6C9321136DA48E008AD709 /* WTMGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6C931F136DA48E008AD709 /* WTMGlyph.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA6C9322136DA48E008AD709 /* WTMGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C9320136DA48E008AD709 /* WTMGlyph.m */; };
-		EA6C9325136DA5CE008AD709 /* WTMGlyphDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6C9323136DA5CE008AD709 /* WTMGlyphDetector.h */; };
+		EA6C9325136DA5CE008AD709 /* WTMGlyphDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6C9323136DA5CE008AD709 /* WTMGlyphDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA6C9326136DA5CE008AD709 /* WTMGlyphDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C9324136DA5CE008AD709 /* WTMGlyphDetector.m */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E7943E816EA5C62009259AB /* WTMDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMDetectionResult.h; sourceTree = "<group>"; };
+		6E7943E916EA5C62009259AB /* WTMDetectionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMDetectionResult.m; sourceTree = "<group>"; };
 		EA1BA994138E71BF00D9A7B9 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
 		EA1BA995138E71BF00D9A7B9 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
 		EA1BA997138E71BF00D9A7B9 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 				EA6C9320136DA48E008AD709 /* WTMGlyph.m */,
 				EA6C9323136DA5CE008AD709 /* WTMGlyphDetector.h */,
 				EA6C9324136DA5CE008AD709 /* WTMGlyphDetector.m */,
+				6E7943E816EA5C62009259AB /* WTMDetectionResult.h */,
+				6E7943E916EA5C62009259AB /* WTMDetectionResult.m */,
 				EA278049136DAD6A00E3065A /* WTMGlyphDelegate.h */,
 				EA27804E136DB9D400E3065A /* WTMGlyphDefaults.h */,
 				EA27804F136DB9D400E3065A /* WTMGlyphDefaults.m */,
@@ -308,6 +314,7 @@
 				EA1BA9BC138E71BF00D9A7B9 /* CJSONScanner.h in Headers */,
 				EA1BA9BE138E71BF00D9A7B9 /* CJSONSerializer.h in Headers */,
 				EA1BA9C0138E71BF00D9A7B9 /* JSONRepresentation.h in Headers */,
+				6E7943EA16EA5C62009259AB /* WTMDetectionResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +328,7 @@
 				EA6C92F2136DA457008AD709 /* Sources */,
 				EA6C92F3136DA457008AD709 /* Frameworks */,
 				EA6C92F4136DA457008AD709 /* Headers */,
+				6E7943E716EA5A35009259AB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -390,6 +398,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6E7943E716EA5A35009259AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "#!/usr/bin/ruby\n#based on http://stackoverflow.com/a/13056753\n\nif ENV[\"TARGET_BUILD_DIR\"] != ENV[\"BUILT_PRODUCTS_DIR\"] then\n  $product_name = ENV['PRODUCT_NAME']\n  $target_build_dir = ENV['TARGET_BUILD_DIR']\n  $built_products_dir = ENV['BUILT_PRODUCTS_DIR']\n\n  $source_file = File.join($target_build_dir, $product_name)\n  $dest_file = File.join($built_products_dir, $product_name)\n\n  if File.exist?($source_file)\n    system \"ln -s #{$source_file} #{$dest_file}\"\n  else\n    puts 'WTMGlyph folder not found'\n  end\nend";
+		};
 		EA6C9301136DA457008AD709 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +447,7 @@
 				EA1BA9BB138E71BF00D9A7B9 /* CJSONDeserializer.m in Sources */,
 				EA1BA9BD138E71BF00D9A7B9 /* CJSONScanner.m in Sources */,
 				EA1BA9BF138E71BF00D9A7B9 /* CJSONSerializer.m in Sources */,
+				6E7943EB16EA5C62009259AB /* WTMDetectionResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +524,7 @@
 				INSTALL_PATH = /tmp;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -518,6 +541,7 @@
 				INSTALL_PATH = /tmp;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
