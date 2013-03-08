@@ -31,7 +31,7 @@
       self.backgroundColor = [UIColor clearColor];
       self.enableDrawing = YES;
       
-      self.myPath = [[UIBezierPath alloc]init];
+      self.myPath = [[UIBezierPath alloc] init];
       self.myPath.lineCapStyle = kCGLineCapRound;
       self.myPath.miterLimit = 0;
       self.myPath.lineWidth = 10;
@@ -48,9 +48,6 @@
   if (self.glyphNamesArray == nil)
     self.glyphNamesArray = [[NSMutableArray alloc] init];
 }
-
-
-
 
 #pragma mark - Public interfaces
 
